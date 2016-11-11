@@ -84,8 +84,9 @@
 /* GLOBAL OVERRIDES */
 
 .uk-dotnav > * > * {
-    width: 8px;
-    height: 8px;
+    width: 3px;
+    height: 3px;
+    background: #ffffff;
 }
 
 
@@ -653,11 +654,15 @@ html .partnershipSlide .n2-ss-layer {
     color: #ffffff !important;
 }
 .uk-dotnav > .uk-active > * {
-    background: #ffffff;
+    width: 7px;
+    height: 7px;
+    top: -2px;
+    position: relative;
 }
 .uk-dotnav > * >:hover,
 .uk-dotnav > * >:focus {
     border-color: #e4003a!important;
+    background: #e4003a!important;
 }
 .uk-dotnav > .uk-active > * {
     background: #ffffff;
