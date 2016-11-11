@@ -1,0 +1,3455 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* ========================================================================
+   Use this file to add custom CSS easily
+ ========================================================================== */
+
+ /* override the themes margin-left adjustment from theme.css */
+ .uk-grid{
+ margin-left:auto!important;
+ }
+ 
+
+/* IDEA - FONT FILES */
+
+
+/* ADD FONT DEFINITIONS FOR : MONSERRAT ULTRA LIGHT, REGULAR AND BOLD*/
+
+@font-face {
+    font-family: 'montserratblack';
+    src: url('../fonts/montserrat-black-webfont.woff2') format('woff2'), url('../fonts/montserrat-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'), url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratextra_bold';
+    src: url('../fonts/montserrat-extrabold-webfont.woff2') format('woff2'), url('../fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'), url('../fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'), url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratsemi_bold';
+    src: url('../fonts/montserrat-semibold-webfont.woff2') format('woff2'), url('../fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratultra_light';
+    src: url('../fonts/montserrat-ultralight-webfont.woff2') format('woff2'), url('../fonts/montserrat-ultralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratthin';
+    src: url('../fonts/montserrat-thin-webfont.woff2') format('woff2'), url('../fonts/montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ .uk-navbar-center{
+	 float:left!important;
+	 width:200px!important;
+	 max-width:200px!important;
+	 min-width:200px!important;
+	 margin-left:0px!important;
+ }
+ 
+ .eightyPercent{
+	 width:80%!important;
+	 margin-left:auto!important;
+	 margin-right:auto!important;
+ }
+
+ .fortyFivePercent{
+	 width:45%!important;
+	 margin-left:auto!important;
+	 margin-right:auto!important;
+ }
+
+
+
+
+.sectionHeadBLACK a, h1 a:hover, h1 a:focus, h1 a:active  {
+    color: #000000!important;
+    cursor:pointer!important;
+}
+
+.underlinedOnHover:hover,
+.underlinedOnHover:active {
+    text-decoration: underline!important;
+}
+.parallax{
+padding-top:30px!important;
+}
+
+.uk-container {
+    max-width: 100%!important;
+    padding: 0px!important;
+}
+
+.tm-navbar #menuTagID {
+    padding-top: 18px!important;
+}
+
+
+/* ADJUST MENU POSITION WHEN MINIMISED MENU IS VISIBLE */
+
+.uk-active #menuTagID {
+    padding-top: 12px!important;
+}
+
+.boldText {
+    font-family: 'montserratsemi_bold', arial, sans-serif;
+}
+
+h1.sectionHeading {
+    font-family: 'montserratregular', arial, sans-serif;
+    font-size: 1em;
+    /* 20px */
+    color: #ffffff!important;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+h1.sectionHead,
+html .SS h1 {
+    font-family: 'montserratlight', arial, sans-serif;
+    /*font-size:15px;	*/
+    font-size: 1em; /*!important */
+	/*margin-left:2%!important;  offset letter-spacing affecting centering */
+    color: #ffffff!important;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    /*background: url('title-underline.png')!important;
+    background-position: 50% 100%!important;
+    background-repeat: no-repeat!important;*/
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 2%;
+}
+
+
+h1.sectionHeadingBLACK {
+    font-size: 1em;
+    /* 20px*/
+    color: #000000!important;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    text-transform: none!important;
+}
+
+h1.sectionHeadBLACK {
+    font-family: 'montserratlight', arial, sans-serif;
+margin-top:9%; /* !important */
+    font-size: 1em!important;
+    color: #000000!important;
+    text-align: center;
+	margin-left:2%!important; /* offset letter-spacing affecting centering */
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    /*background: url('title-underline.png')!important;
+    background-position: 50% 100%!important;
+    background-repeat: no-repeat!important;*/
+}
+
+
+
+h2.largeHeading {
+    font-family: 'montserratlight', arial, sans-serif;
+    /* montserratthin */
+    font-size: 3.5em;
+    /* 50px*/
+    color: #ffffff!important;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1em;
+    text-transform: none!important;
+}
+
+h2.midHeading {
+    font-family: 'montserratlight', arial, sans-serif;
+    /* montserratthin */
+    font-size: 2.8em;
+    /* 50px*/
+    color: #ffffff!important;
+    text-align: center;
+    margin-top: 0px;
+    line-height: 1em;
+    text-transform: none!important;
+}
+
+h3.subject {
+    font-family: 'montserratregular', arial, sans-serif;
+    /*font-size: 1.2em;*/
+    /* 18px */
+    color: #ffffff!important;
+    text-align: center;
+    text-transform: none;
+    width: 52%!important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+
+h3.subjectBLACK {
+    font-family: 'montserratregular', arial, sans-serif;
+    /*font-size: 1.2em;*/
+    /* 33px*/
+    color: #000000!important;
+    text-align: center;
+    margin-top: 0px;
+    text-transform: none;
+}
+
+.uk-contrast a:not([class]) {
+    color: #000000;
+}
+
+
+
+.bodyText p.noMargin{
+	margin-bottom:0px!important;
+	padding-bottom:0px!important;
+}
+
+.bodyText p.noMargin+span{
+	margin-bottom: 6px !important;
+	padding-top:0px!important;
+}
+
+
+span {
+    margin-bottom: 10px;
+}
+
+
+/* REMOVE margin on bottom of main-top */
+
+.tm-main-top + .tm-content {
+    margin-top: 0px!important;
+}
+
+.bodyText p {
+    line-height: 1.5em!important;
+}
+
+.bodyTextBottom,
+.bodyText,
+.bodyTextBottom a,
+.bodyText a {
+    font-family: 'montserratlight', arial, sans-serif;
+    /* montserratthin */
+    /*font-size:14px;*/
+    color: #ffffff!important;
+    text-align: center;
+}
+
+.bodyTextBottom a:hover,
+.bodyText a:hover,
+.bodyTextBottom a:active,
+.bodyText a:active {
+    /*font-weight:bold!important;*/
+}
+
+#CONTACTUS{
+	font-family:'montserratregular'!important;
+	line-height: 3em !important;
+}
+
+
+.reducedGap{
+width:15%!important;
+margin:0px!important;
+padding:0px!important;
+display:inline-block!important;
+}
+
+#firstThird, #lastThird{
+width:16%!important;
+display:inline-block!important;
+}
+
+
+   .splitThirds, #tm-footer #footer1, #tm-footer #footer2,#tm-footer #footer3{
+   display:inline-block!important;
+   width:33%!important;
+   margin-left:0px!important;
+   margin-right:0px!important;
+   }
+
+   #tm-footer #footer3{
+   text-align:right!important;    
+   }
+
+   #tm-footer #footer3>*{
+    vertical-align:bottom!important;
+}
+
+
+   #tm-footer #footer1>div{
+   margin-left:0px!important;
+   margin-right:0px!important;
+   }
+
+    #tm-footer .tm-totop-scroller, #tm-footer .tm-totop-scroller img{
+		margin-right:auto!important;/* 20px!important*/
+		margin-left:auto!important;
+		width:100%!important;
+		display:block;
+		text-align:center!important;
+		
+    }
+
+    #tm-footer .tm-totop-scroller img{display:block!important;}
+
+    #tm-footer .tm-totop-scroller {
+		color:#c3003b!important;
+		font-size:11px!important;
+    }
+	
+	
+    #tm-footer .IAVIlogo {
+    width: auto!important;
+	margin-left:auto!important;
+	margin-right:auto!important;
+    /* margin-left: 7%; */
+    }
+
+.bodyTextBLACK,
+.tm-footer {
+    color: #000000!important;
+    font-family: 'montserratlight', arial, sans-serif; /* WAS: 'montserratultra_light' */
+    /* montserratthin */
+    /*font-size:14px;*/
+    font-size: 0.85em;
+    text-align: center;
+    text-transform: none;
+}
+
+.tm-footer p {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+}
+
+
+/* ARROWS IN TOP SLIDE */
+
+.uk-slidenav-previous,  
+.uk-slidenav-next {  
+display:block!important;
+top: 45%;
+}  
+
+.wk-slideshow .next {  
+    right: 30px;  
+    background-position: 0 0;  
+}  
+
+.wk-slideshow .prev {  
+    left: 30px;  
+    background-position: 0 -50px;  
+}
+
+/* PIPS IN TOP SLIDE */
+
+.tm-top-a .uk-overlay-panel >div {
+    height: 49%!important;
+}
+
+.bodyTextBottom {
+    font-size: 1.2em;
+    vertical-align: bottom !important;
+    bottom: 0px !important;
+    width: 33%;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* margin-top: 16%; */
+    margin-left: 31.5%!important;
+    margin-right: 33%!important;
+    margin-top: 16%!important;
+    position: absolute!important;
+    margin-bottom: 8%!important;
+}
+
+
+/* REPLACES bodyTextBottom */
+
+.bodyTextCentralBottom {
+    font-size: 1.2em;
+    font-family: 'montserratlight', arial, sans-serif; / ‘montserratultra_light’
+    /*margin-left: 3%!important; 
+    margin-right: 3%!important; 
+    width: 90%;  30% 31st */
+	margin-left:auto;
+	margin-right:auto;
+	width:98%;
+	position: absolute!important;
+    text-align: center;
+    position: absolute!important;
+    /*bottom: 0px!important; */
+}
+
+strong {
+    font-family: 'montserratregular', arial, sans-serif!important;
+}
+
+
+/* FIRST SLIDE POSITIONING */
+
+.uk-overlay-panel,
+.uk-overlay-panel >div {
+    width: 100%;
+    /* top: 36%;  INTERFERING WITH TOO MANY SLIDES */
+}
+
+
+/* PARTNERSHIPS - UPDATES - 31st */
+
+html .partnershipSlide h1.smartSECTIONHEAD{
+	font-size:19px!important;
+	letter-spacing:2px!important;
+}
+
+html .partnershipSlide h2.smartSUBJECT{
+    font-size: 30px!important;
+	font-weight:bold!important;
+}
+
+html .partnershipSlide  h3.smartBODYTEXT{
+	font-size:20px!important;
+}
+
+html .partnershipSlide .n2-ss-layer{
+	margin-left:auto!important;
+	margin-right:1%!important;
+}
+
+
+/* PARTNERSHIPS SLIDE OVERRIDE SMART SLIDER CENTRIC STYLES */
+
+.mobileIcon{
+vertical-align:bottom!important;
+}
+
+.line1{
+display:block!important;
+padding-top:40px!important;
+text-align:center!important;
+}
+
+.line2{
+display:block!important;
+padding-top:40px!important;
+text-align:center!important;
+}
+
+.line1TXT{
+display:block!important;
+padding-top:10px!important;
+color:#ffffff!important;
+text-align:center!important;
+}
+
+.line1TXT>*{
+	display:inline-block!important;
+	width:48%!important;
+}
+
+.boostText,
+.competitiveText{
+	float:left!important;
+}
+
+.moraleText,
+.partnershipText{
+	float:right!important;
+}
+
+.line2TXT{
+display:block!important;
+padding-top:20px!important;
+color:#ffffff!important;
+text-align:center!important;
+}
+
+
+.partnershipsSlide .uk-overlay-top{
+	width:90%!important;
+	margin-left: 5% !important;
+}
+
+.partnershipsSlide p{
+	padding-left:23%!important;
+	padding-right:23%!important;
+	padding-bottom:6%!important;
+}
+
+.partnershipsSlide span.notes{
+	display:block;
+	width:auto!important;
+	text-align:center!important;
+	padding:auto!important;
+}
+
+.partnershipIcons{
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#boost,#morale,#competitive,#engage{
+	display: inline-block;
+/*	padding-left:8.5%;
+	padding-right:8.5%;*/
+}
+
+#engage{
+	padding-left:0px;
+}
+
+#engage{
+	padding-right:0px;
+}
+
+#boost {
+    background: url('/images/IDEA/boost-still.png') no-repeat;
+	width:70px;
+	height:70px;
+	transition: opacity 700ms ease;
+float:left!important;
+display:block!important;
+margin-right: 10%!important;
+}
+#morale {
+    background: url('/images/IDEA/morale-still.png') no-repeat;
+	width:70px;
+	height:70px;
+	transition: opacity 700ms ease;
+float:right!important;
+display:block!important;
+}
+#competitive {
+    background: url('/images/IDEA/competitive-still.png') no-repeat;
+	width:70px;
+	height:70px;
+	transition: opacity 700ms ease;
+float:left!important;
+display:block!important;
+margin-right: 10%!important;
+}
+#engage {
+    background: url('/images/IDEA/engage-still.png') no-repeat;
+	width:70px;
+	height:70px;
+	transition: opacity 700ms ease;
+	float:right!important;
+	display:block!important;
+}
+
+/*
+#boost:hover,
+#boost:focus{
+    background: url('/images/IDEA/boost-animation.gif') no-repeat;
+}
+#morale:hover,
+#morale:focus{
+    background: url('/images/IDEA/morale-animation.gif') no-repeat;
+}
+#competitive:hover,
+#competitive:focus{
+    background: url('/images/IDEA/competitive-animation.gif') no-repeat;
+}
+#engage:hover,
+#engage:focus{
+    background: url('/images/IDEA/engage-animation.gif') no-repeat;
+}
+
+/* SLIDE STYLES USED */
+
+.redSlide{
+background-color:#c3023b!important;
+}
+
+.currentPartners{
+	background: url('/images/IDEA/SLIDES/our-current-partners-BG.jpg') 0 0 no-repeat;
+	min-height:200px!important;
+}
+
+/* .mobileONLY div.partnershipText{ */
+
+/* } */
+
+.partnerName{
+	margin-top:20%!important;
+}
+
+.currentPartners .uk-slidenav-previous,
+.currentPartners .uk-slidenav-next{
+	margin-top:1%!important;
+}
+
+*/
+
+/* SUBSEQUENT SLIDE POSITIONING */
+
+.tm-top-c {
+    background: #000000;
+}
+
+.uk-overlay-top {
+    /*width: 66%; *//*55%*/
+    /* 60% */
+    top: 15px !important;
+    /*margin-left: 2%!important;*/ /* 16% 20% 18% */
+}
+
+.uk-overlay-panel {
+    margin: -30px;
+}
+
+.fullHeightSlide .uk-cover-background img{
+
+    min-height:100vh!important;
+    max-height:100vh!important;
+}
+
+.uk-dotnav {
+    /*bottom: 60px;*/ /* 60px!important 50px*/
+    position: absolute!important;
+    margin-left: 43.7%; /*44% 43% */
+    margin-right: 43%;
+    width: 10%!important;
+}
+
+.uk-slidenav,
+.uk-overlay-panel a:not([class]) {
+    color: #ffffff !important;
+}
+
+.uk-dotnav > .uk-active > * {
+    background: #ffffff;
+}
+
+.uk-dotnav > * >:hover,
+.uk-dotnav > * >:focus {
+    border-color: #e4003a!important;
+}
+
+.uk-dotnav > .uk-active > * {
+    background: #ffffff;
+}
+
+
+/* PURPOSE: reset margin on navigation dots */
+
+.uk-margin-large-top {
+    margin-top: 0px!important;
+    margin-bottom: 20px!important;
+}
+
+.uk-dotnav > * > * {
+    width: 8px;
+    height: 8px;
+}
+
+.redBand {
+    width: 100%;
+    height: 150px;
+    max-height: 150px!important;
+    background: #e4003a;
+    color: #ffffff;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-size: 0.7em!important;
+    font-family: 'montserratlight', arial, sans-serif;
+    font-weight: normal;
+    line-height: 23px;
+    /* background: #ffffff; */
+    padding: 5px 20px;
+    /* border-radius: 4px; */
+    /* border-color: #ffffff; */
+}
+
+.animatedButton p {
+	position: relative!important;
+	margin: 0;
+	padding: 1em;
+	z-index: 1;
+}
+
+
+.color-1 {
+	background: #0e83cd;
+}
+/* General button style (reset) */
+.btn {
+	border: none;
+	font-family: 'montserratlight', arial, sans-serif;
+	font-size: 0.7em;
+	color: #000000!important;
+	background: none;
+	cursor: pointer;
+	padding: 10px 60px;
+	display: inline-block;
+	margin: 0px 30px 15px 30px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+/* Pseudo elements for icons */
+.btn:before{
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+/* Button 1 */
+.btn-1 {
+	border: 3px solid #fff;
+}
+
+.btn:hover:not(.uk-button-primary):not(.uk-button-success):not(.uk-button-danger):not(:disabled):not(.uk-button-link), .btn:focus:not(.uk-button-primary):not(.uk-button-success):not(.uk-button-danger):not(:disabled):not(.uk-button-link) {
+    border-color: #ffffff;
+	color:#000000;
+}
+
+
+/* Button 1b */
+.btn-1b:after {
+	width: 100%;
+	height: 0;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.btn-1b:hover,
+.btn-1b:active {
+	color: #0e83cd;
+}
+
+.btn-1b:hover:after,
+.btn-1b:active:after {
+	height: 100%;
+}
+
+
+.toTopScroller {
+	/*margin-top: 1.5em;*/
+	vertical-align:bottom!important;
+	display:inline-block!important;
+    right: 0px!important;
+    float: right!important;
+	top: 20px !important; /* 50px */
+	position: absolute !important;
+	text-transform:uppercase!important;
+	color:#e4003a!important;
+}
+
+
+/* POSITIONING X IN STORY SLIDE DYNAMICALLY */
+
+.Xinlayer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    margin-top: 0px;
+}
+
+
+/* END OF X DYNAMIC POSITIONING */
+
+.uk-navbar-toggle {
+    height: 90px!important;
+}
+
+
+/* END OF IDEA 3 - YOOTHEME SLIDESHOW SPECIFIC BITS */
+
+
+/* IDEA UPDATES  (TOP TO BOTTOM OF SCREEN */
+
+.desktopONLY {
+    display: block;
+}
+
+.mobileONLY{
+display:none!important;
+}
+
+.mobileMENUONLY{
+display:none!important;
+}
+
+.phoneMENUONLY {
+    display: none;
+}
+
+.uk-sticky-placeholder > div {
+    background: #000000;
+}
+
+/* ADJUST VERTICAL HEIGHT WHEN MAIN MENU */
+ul#homepagemenuID{
+	margin-top:8px!important; /* 32px 35px */
+}
+
+/* ADJUST VERTICAL HEIGHT WHEN FIXED MENU (SHALLOWER) */
+
+[data-uk-sticky].uk-active ul#homepagemenuID{
+	margin-top:12px!important;
+}
+
+.uk-navbar-nav > li > a {
+    height: 60px!important;
+}
+
+.uk-navbar-nav {
+    float: right;
+}
+
+.tm-navbar .uk-navbar ul a,
+.tm-navbar .uk-navbar-nav > li.uk-active > a,
+.uk-navbar-nav > li > a {
+    letter-spacing: 2px!important;
+    font-size: 14px; /* !important */
+    font-family: 'montserratregular', arial, sans-serif; /* ‘Montserrat’ */
+}
+
+.tm-navbar .uk-navbar ul a:hover,
+.tm-navbar .uk-navbar ul a:focus,
+.tm-navbar .uk-navbar ul a:active{
+text-decoration:underline!important;
+}
+
+.tm-navbar .uk-navbar-nav > li.uk-active > a {
+    font-weight: bold;
+}
+
+
+/* SWAP FULL LOGO FOR LOGO WITHOUT STRAPLINE */
+
+.uk-animation-slide-top #MAINLOGO {
+    display: none;
+}
+
+.uk-animation-slide-top .logoDIV {
+    width: 133px;
+    height: 50px;
+    background: url(/images/IDEA/logo-MOBILE.png)0 0 no-repeat!important;
+    top: 8px;
+    margin: 10px;
+}
+
+.uk-float-left .logoDIV {
+    margin: 30px 10px 10px 20px;
+}
+
+.uk-active .logoDIV {
+    margin-top: 20px!important;
+    margin-bottom: 20px!important;
+}
+
+.tm-navbar {
+    padding: 0 20px;
+}
+
+.tm-navbar p {
+    margin: 0px;
+}
+
+
+/* MENU ON MOBILE VIEW */
+
+.uk-offcanvas-bar {
+    background: #cd0034;
+	padding-top:16px!important;
+}
+
+.uk-nav-offcanvas > li > a {
+    color: #ffffff;
+    text-transform: uppercase!important;
+    font-family: 'montserratlight', arial, sans-serif;
+}
+
+html:not(.uk-touch) .uk-nav-offcanvas > li > a:hover,
+.uk-nav-offcanvas > li > a:hover,
+.uk-nav-offcanvas > li > a:focus,
+.uk-nav-offcanvas > li > a:active {
+    color: #000000;
+    text-transform: uppercase!important;
+    font-family: 'montserratlight', arial, sans-serif;
+}
+
+.uk-offcanvas .uk-search {
+    display: none!important;
+}
+
+.uk-offcanvas .uk-panel {
+    margin-top: 6px!important;
+}
+
+.uk-slideshow {
+    /* min-height:100%!important; impacting story slides */
+    /* margin-top:-16px!important; */
+}
+
+
+/* PADDING FROM YOO_FINCH RESPONSIVE CODE THROWING SLIDES OFF CENTER ? */
+
+.uk-grid > * {
+    padding-left: 0px;
+}
+
+
+
+/* DISABLE THUMBNAILS SHOWING IN SLIDESHOW */
+
+.nextend-arrow-image {
+    background-image: none!important;
+}
+
+.uk-thumbnav img{display:none!important;}
+
+#tm-bottom-a {
+    background: none!important;
+}
+
+.tm-navbar .uk-navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.uk-sticky-placeholder:hover li {
+    -webkit-filter: blur(0.0px); /* 1.0px*/
+}
+
+.uk-sticky-placeholder .menu-dropdown li:hover,
+.uk-sticky-placeholder .menu-dropdown li:focus {
+    -webkit-filter: blur(0px);
+    color:#e4003a!important;
+}
+
+.tm-navbar .uk-navbar-nav > li.uk-active > a {
+    background-color: rgba(0, 0, 0, 0);
+    color: #e4003a;
+    font-size: 15px!important;
+}
+
+.tm-navbar .uk-navbar-nav > li > a:hover,
+.tm-navbar .uk-navbar-nav > li:hover {
+/*	background: url("/images/IDEA/title-underline.png") 50% 100% repeat-x; */
+text-decoration:underline!important;
+    /*-webkit-filter: blur(0px)!important; */
+    /* background-color: rgba(0, 0, 0, 0.05); */
+}
+
+.tm-block-padding-large {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.n2-ss-align h5,
+.n2-ss-layer-parallax h5,
+.n2-ss-align h5 a,
+.n2-ss-layer-parallax h5 a {
+    letter-spacing: 4px!important;
+}
+
+.n2-ss-layers-container {
+    margin-top: 0px!important;
+}
+
+.n2-ss-slide-background .n2-ss-slide-background-image {
+    margin-top: 0px!important;
+}
+
+.tm-block-texture.uk-block-secondary {
+    background: none!important;
+}
+
+.uk-block {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-top: 0px solid transparent;
+}
+
+.uk-panel-badge {
+    display: none!important;
+}
+
+#tm-bottom-a {
+    background-image: url('/images/IDEA/parallax-full-BG.jpg');
+    padding-top: 0px!important;
+}
+
+#tm-bottom-a > * {
+    height: auto!important;
+}
+
+
+/* COUNTERING YOO_FINCH THEME.CSS */
+
+.uk-height-viewport {
+    /* height:auto!important; AFFECTS PARALLAX SLIDE HEIGHT */
+    max-height: auto!important;
+    min-height: auto!important;
+}
+
+.tm-block-footer.tm-block-padding-large {
+    padding-bottom: 0px;
+}
+
+.tm-footer {
+    letter-spacing: 0px!important;
+    padding-top: 2%;
+	padding-bottom: 2%;
+    background: url('footer-BG.png')no-repeat!important;
+    background-size: cover!important;
+}
+
+.footerLOGO {
+    margin-top: 1%!important; /* 3% */
+}
+
+.tm-footer a {
+    color: #000000!important;
+    text-decoration: none;
+}
+
+.tm-footer a:hover,
+.tm-footer a:active {
+    color: #e4003a;
+}
+
+.tm-footer a.noHover:hover,
+.tm-footer a.noHover:focus,
+.tm-footer a.noHover:active{
+	color:#000000!important;
+}
+
+
+/* HIDE THE UP ARROW ON THE TO TOP INDICATOR */
+
+.tm-totop-scroller:before {
+    display: none!important;
+}
+
+.toTopScroller {
+    /*margin-top: 3.65em;*/
+    right: 0px!important;
+    bottom: 0px!important;
+	vertical-align:bottom!important;
+    float: right!important;
+}
+
+img.uk-responsive-height {
+    margin-top: 10px;
+}
+
+.IAVIlogo {
+    width: 490px;
+    /* 490px 50% */
+    margin-left: 9%;
+    /* margin-bottom:2%; */
+    margin-right: auto;
+	display:inline-block!important;
+}
+
+.supportedBy {
+    max-width: 90%!important;
+}
+
+
+/* IDEA IS EVERYTHING UPDATES - DIFFERENT DEVICES */
+
+
+/* Only Desktop */
+
+@media (min-width: 960px) { /* FIRST PART WAS : (min-device-width: 1025px) and */
+    /* PUTTING VH BACK IN MEANS ELEMENTS OVERRUN - ADDED TIE IN TO YOOTHEME uk-height-viewport*/
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 800px!important;
+    }
+    .fullHeightSlide ul.uk-dotnav li {
+        min-height: 20px!important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* ADJUSTING PARTICIPATE */
+    /*HTML TEXT TO MATCH OTHER TEXT IN SLIDES */
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.8em!important;
+		line-height:1.1em!important;
+	}
+
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter {
+        font-family: 'montserratultra_light', arial, sans-serif;
+        color: #ffffff;
+        /*font-size: 103.75%!important;*/
+        font-size: 1em;
+        line-height: 1.5!important;
+    }
+    .bodyTextBLACK {
+        font-size: 0.9em;
+        line-height: 1.5!important;
+    }
+    #tm-footer .bodyTextBLACK {
+        font-family: 'montserratlight', arial, sans-serif!important;
+    }
+    .bodyBoldFooter,
+    .bodyTextFooter {
+        font-family: 'montserratultra_light', arial, sans-serif;
+        color: #000000;
+        /*font-size: 103.75%!important;*/
+        font-size: 1.3em!important;
+        line-height: 1.5!important;
+    }
+    /* H6 ON PARTICIPATE */
+    .uk-navbar-toggle {
+        float: right!important;
+        right: 0px!important;
+    }
+    .uk-navbar-nav > li > a {
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    /* STOP LOGO CENTERING ON SMALLER RESOLUTIONS - SHOULD ALWAYS BE RANGE LEFT */
+    .uk-navbar-center {
+        height: 0px!important;
+        float: left!important;
+    }
+    .uk-navbar-center,
+    .tm-logo-small,
+    img.uk-responsive-height {
+        float: left!important;
+        text-align: left!important;
+    }
+    img.uk-responsive-height {
+        text-align: left!important;
+    }
+    /* STORY SLIDE */
+    .uk-cover-background {
+        background-position: 95% 50%!important;
+    }
+
+.fullHeightSlide .uk-cover-background img,
+.fullHeightSlide .uk-cover-background ul
+.fullHeightSlide .uk-cover-background li{
+
+    min-height:100vh!important;
+    max-height:100vh!important;
+}
+    .Xinlayer {
+        /* margin-top: 162px; /* !important 178px, 148px!important */ 
+		padding-top:0px!important;
+    }
+    .tm-navbar #menuTagID {
+        padding-top: 30px!important;
+    }
+}
+
+
+/* No Desktop */
+
+@media (max-width: 959px) {
+
+
+
+}
+
+
+
+
+
+/* THIS MIGHT NOT BE TESTABLE / FIRE ON MACS */
+
+@media (min-width: 2560px) { /* 26TH changed from min-width:2050px max-width: 4400, previously was min */
+
+/* #tm-main{
+min-height:795px!important;
+height:795px!important;
+max-height:795px!important;
+}*/
+
+.tm-navbar .uk-navbar ul a, .tm-navbar .uk-navbar-nav > li.uk-active > a, .uk-navbar-nav > li > a{
+font-size:16px!important;
+}
+
+    /* SLIDE 1 - PUTTING VH BACK IN MEANS ELEMENTS OVERRUN - ADDED TIE IN TO YOOTHEME uk-height-viewport*/
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 850px!important; /*1000px*/
+    }
+	
+    .tm-top-a .fullHeightSlide{
+	min-height:100vh!important;
+	max-height:100vh!important;	
+    }
+	
+	/* SLIDES WHICH APPEAR WITH STICKY MENU SHOWING NEED TO BE SHALLOWER */
+	
+	.partnershipSlide{
+		height:550px!important;
+		max-height:550px!important;
+		min-height:550px!important;
+	}
+	
+    .reducedHeightSlide,
+    .reducedHeightSlide li {
+      max-height: 980px; /* !important */
+      min-height: 875px; /* !important */
+    /* scaling breaking X position
+	max-height: 82vh!important;
+	min-height:82vh!important; */
+    }
+	
+	
+    .tm-top-a .uk-overlay-panel >div {
+        height: 85%!important;
+    }
+	
+  /*  
+INTERFERING WITH TOO MANY ELEMENTS
+.tm-top-a .uk-overlay-panel, .uk-overlay-panel > div {
+    top: 34%!important;
+    } */
+
+.tm-top-a .uk-overlay-panel {
+    top: 34%!important;
+}
+
+    
+    h1.sectionHead,
+    h1.sectionHeadBLACK,
+    h1.sectionHeading,
+html .SS h1  {
+	font-size:20px!important;
+    }
+
+    h1.sectionHeadBLACK{
+    margin-top: 0%!important;
+    }
+
+    h2.largeHeading {
+        font-size: 100px!important;
+    }
+
+    h2.midHeading {
+        font-size: 70px!important;
+    }
+
+    h3.subject {
+       font-size: 30px!important;
+	margin-top:30px; /* 100px */
+	width: 70%!important;
+	line-height: 1.5em;
+    }
+
+    h3.subjectBLACK {
+       font-size: 30px!important;
+	width: 70%!important;
+	line-height: 1.5em;
+    }
+
+	
+    .redBand h3.subject{
+	margin-top:5%; /* important */
+	width:50%!important;
+	vertical-align:middle!important;
+	}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:16px!important;
+		line-height:14px!important;
+	}
+
+    .bodyTextCentralBottom,
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter,
+    .bodyTextBLACK	{
+        font-size: 24px!important; /*18PX*/
+        line-height: 32px!important; /* 25PX 32px*/
+    }
+    .bodyTextBottom {
+        margin-top: 50%!important;
+    }
+
+/* FIRST SLIDE */
+
+.fullHeightSlide .uk-slidenav-position .uk-slidenav{  
+display:block!important;
+top: 50%!important; /* !important */
+} 
+
+
+    .bodyTextCentralBottom {
+    margin-top: 20%!important; /* 18% 5% */
+    }
+
+.uk-dotnav {
+    bottom: 50px!important;
+    margin-bottom: 0px!important;
+}
+
+    span.boldText+p {
+        margin-top: 30px!important;
+    }
+	
+    .uk-text-large {
+    font-family: 'montserratregular', arial, sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 300;
+}
+    .tm-top-b,
+    .redBand {
+        min-height: 300px!important;
+        height: 300px!important;
+vertical-align:middle!important;
+    }
+    .Xinlayer {
+	width: 160px;
+	padding-top: 0px !important;
+	margin-top: 100px !important;
+    }
+
+/* PARTNERSHIPS - UPDATES - 31st */
+
+html .partnershipSlide h1.smartSECTIONHEAD{
+	font-size:19px!important;
+	letter-spacing:2px!important;
+}
+
+html .partnershipSlide h2.smartSUBJECT{
+    font-size: 30px!important;
+	font-weight:bold!important;
+
+}
+
+html .partnershipSlide  h3.smartBODYTEXT{
+	font-size:20px!important;
+}
+
+html .partnershipSlide .n2-ss-layer{
+	margin-left:auto!important;
+	margin-right:1%!important;
+}
+
+
+
+}
+
+@media (max-width: 2560px){ /* ADDED 26TH OCT - SWITCHING FROM MAX-WIDTH 2050 TO MAX WIDTH 2560PX - TO COUNTER WHITE LINE APPEARING BETWEEN 1600 AND 2500PX ON FIRST SLIDE */
+
+
+/* OVERRIDE SMARTSLIDER CSS */
+
+/* margin left 8% to correct misaligned centre */
+
+div.SS div#n2-ss-2 .n2-ss-layer h1{
+font-family: 'montserratlight', arial, sans-serif!important;
+letter-spacing:2px!important;
+font-size: 20px;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h2 {
+    font-size: 30px!important;
+    margin-top: 20px;
+    width: 70%!important;
+    line-height: 1.5em;
+font-family: 'montserratregular', arial, sans-serif!important;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h3 {
+    font-size: 24px!important;
+    line-height: 32px!important;
+    font-family: 'montserratultra_light', arial, sans-serif;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h4 {
+    font-size: 24px!important;
+    line-height: 32px!important;
+    font-family: 'montserratlight', arial, sans-serif;
+}
+
+/* S/SLIDE OVERRIDES ENDS */
+
+.tm-top-a .uk-overlay-panel {
+    top: 42%!important;
+}
+
+    
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        max-height: 100vh!important;
+	min-height:100vh!important;
+        /* !important */
+    }
+
+/* SLIDES WHICH APPEAR WITH STICKY MENU SHOWING NEED TO BE SHALLOWER */
+    .reducedHeightSlide,
+    .reducedHeightSlide li {
+		max-height: 980px; /* !important */
+		min-height: 875px; /* !important */
+    /* scaling breaking X position
+	max-height: 82vh!important;
+	min-height:82vh!important; */
+    }
+
+
+
+/* FIRST SLIDE */
+.bodyTextCentralBottom {
+    margin-top: 0px!important;
+    margin-bottom: 50px!important;
+    bottom: 60px!important;
+}
+
+   .fullHeightSlide .uk-slidenav-position .uk-slidenav{  
+   display:block!important;
+   top: 55%; /* 56% 50%!important */
+}  
+
+.uk-dotnav {
+    bottom: 70px!important;
+    margin-bottom: 0px!important;
+}
+
+    /* have removed uk-grid: - margin */
+	h1.sectionHeading{
+		margin-left:1%;
+	}
+	
+	    /* have removed uk-grid: - margin */
+	h2.largeHeading{
+		margin-left:0.25%!important;
+	}
+	
+	
+    h1.sectionHead,
+    h1.sectionHeadBLACK,
+    h1.sectionHeading,
+html .SS h1  {
+	font-size:20px; /*!important*/
+    }
+
+    h1.sectionHeadBLACK{
+    margin-top: 0%!important;
+    }
+
+    h2.largeHeading {
+        font-size: 100px!important;
+    }
+
+    h2.midHeading {
+        font-size: 70px!important;
+    }
+    h3.subject {
+       font-size: 30px!important;
+	margin-top:30px; /* 100px */
+	width: 70%!important;
+	line-height: 1.5em;
+    }
+
+    h3.subjectBLACK {
+       font-size: 30px!important;
+		width: 70%!important;
+		margin-left: auto;
+		margin-right: auto;
+		line-height: 1.5em;
+		margin-top: 30px;
+    }
+	
+	.iconText{
+		font-size:20px!important
+	}
+
+
+	.redBand {
+		height: 250px!important;
+		max-height: 250px!important;
+		vertical-align:middle!important;
+	}
+
+	
+	.redBand h3.subject {
+		margin-top: 4%;
+		width: 55%!important;
+		vertical-align:middle!important;
+	}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:16px!important;
+		line-height:16px!important;
+		display:block!important;
+	}
+
+    .bodyTextCentralBottom,
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter,
+    .bodyTextBLACK	{
+        font-size: 20px!important; /* 18PX 22PX 18PX*/
+        line-height: 32px!important; /* 25PX 32px*/	
+    }
+    .bodyTextBottom {
+        margin-top: 50%!important;
+		width:97.5%;
+    }
+
+	.noSubject{
+		margin-top:10%!important;
+	}
+
+
+/* SECOND SLIDE */
+
+.stories{
+	min-height:160px!important;
+	max-height:160px!important;
+	overflow:hidden!important;
+	width: 45%; /* WAS 55% 50% 60%*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Xinlayer {
+    width: 190px;
+    padding-top: 0px !important;
+    margin-top: 60px !important; /* 50px 95px */
+}
+
+.bodyText p.spacedLines {
+    line-height: 1.4em!important; /*3em*/
+}
+
+.toTopScroller {
+    top: 12px !important;
+}
+
+
+}
+
+@media (max-width: 1600px) { /* was min */
+
+	h1.sectionHeading{
+		margin-left:0%;
+	}
+
+
+/* OVERRIDE SMARTSLIDER CSS */
+
+/* margin left 8% to correct misaligned centre */
+
+div.SS div#n2-ss-2 .n2-ss-layer h1{
+font-family: 'montserratlight', arial, sans-serif!important;
+letter-spacing:2px!important;
+font-size: 20px;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h2 {
+    font-size: 26px!important;
+    margin-top: 20px;
+    width: 70%!important;
+    line-height: 1.5em;
+font-family: 'montserratregular', arial, sans-serif!important;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h3 {
+    font-size: 20px!important;
+    line-height: 32px!important;
+    font-family: 'montserratultra_light', arial, sans-serif;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h4 {
+    font-size: 22px!important;
+    line-height: 32px!important;
+    font-family: 'montserratlight', arial, sans-serif;
+}
+
+/* S/SLIDE OVERRIDES ENDS */
+
+    /* SLIDE 1 - PUTTING VH BACK IN MEANS ELEMENTS OVERRUN - ADDED TIE IN TO YOOTHEME uk-height-viewport*/
+    
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        max-height: 800px!important;
+	min-height:800px!important;
+        /* !important */
+    }
+		.tm-top-a .fullHeightSlide{
+		min-height:100vh!important;
+		max-height:100vh!important;	
+	}
+	
+    .tm-top-a .uk-overlay-panel >div {
+        height: 88%!important;
+        /* 85% */
+    }
+    .uk-navbar-nav > li > a {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+
+    .tm-navbar .uk-navbar ul a, .tm-navbar .uk-navbar-nav > li.uk-active > a, .uk-navbar-nav > li > a {
+    font-size: 14px; /* !important*/
+    }
+
+    h1.sectionHead,
+    h1.sectionHeadBLACK,
+    h1.sectionHeading,
+html .SS h1  {
+	font-size:16px!important;
+    }
+
+    h1.sectionHeadBLACK {
+        /*padding-bottom: 28px!important; */
+    }
+
+h1.sectionHead,
+html .SS h1 {
+        padding-bottom: 0px!important;
+    }
+
+
+    h1.sectionHead+.bodyText {
+        padding-top: 20px!important;
+    }
+
+    h2.largeHeading {
+        font-size: 70px!important; /* 4em */
+        /* 50px*/
+        line-height: 0.8em!important;
+		margin-left:0.95%!important;
+    }
+
+    h2.midHeading {
+        font-size: 45px!important;
+line-height: 0.8em!important;
+    }
+
+.redBand {
+    height: 150px!important;
+    max-height: 150px!important;
+vertical-align:middle!important;
+}
+
+    .redBand h3.subject {
+	margin-top: 2%; /* important*/
+vertical-align:middle!important;
+    }
+
+    h3.subject, h3.subjectBLACK {
+        font-size: 26px!important;/* 1.4em */
+    }
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.9em!important;
+		line-height:1.3em!important; /* 1em*/
+	}
+
+    .bodyTextCentralBottom, .bodyText, .bodyBold, .bodyBoldFooter, .bodyTextFooter, .bodyTextBLACK{
+       font-size: 17px!important; /* 18x 20px */
+       line-height: 25px; /* 25!important 32px*/
+    }
+
+    .bodyTextBottom {
+        margin-top: 14%!important;
+        width: 33%;
+        margin-left: 33%!important;
+        margin-right: 33%!important;
+    }
+
+
+    .bodyText p {
+        margin-bottom: 1em!important;
+	line-height:22px; /* line-height:22px!important */
+    }
+
+.tm-footer p {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+line-height:25px!important;
+}
+
+
+    .uk-dotnav {
+        margin-top: 0px;
+    }
+    .Xinlayer {
+		margin-top: 75px !important; /* 75px */
+		width: 160px;
+        padding-top:0px!important;
+    }
+}
+
+
+@media (max-width: 1450px) { /* was min */
+
+	h1.sectionHeading{
+		margin-left:1%; /* 0%*/
+	}
+
+/* OVERRIDE SMARTSLIDER CSS */
+
+/* margin left 8% to correct misaligned centre */
+
+div.SS div#n2-ss-2 .n2-ss-layer h1{
+font-family: 'montserratlight', arial, sans-serif!important;
+letter-spacing:2px!important;
+font-size: 16px!important;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h2 {
+    font-size: 26px!important;
+    margin-top: 20px;
+    width: 70%!important;
+    line-height: 1.5em;
+font-family: 'montserratregular', arial, sans-serif!important;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h3 {
+    font-size: 18px!important;
+    line-height: 32px!important;
+    font-family: 'montserratultra_light', arial, sans-serif;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h4 {
+    font-size: 20px!important;
+    line-height: 32px!important;
+    font-family: 'montserratlight', arial, sans-serif;
+}
+
+/* S/SLIDE OVERRIDES ENDS */
+
+
+    /* SLIDE 1 - PUTTING VH BACK IN MEANS ELEMENTS OVERRUN - ADDED TIE IN TO YOOTHEME uk-height-viewport*/
+    
+	
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 775px!important;
+        /* !important */
+    }
+	
+    .tm-top-a .fullHeightSlide{
+	min-height:100vh!important;
+	max-height:100vh!important;
+		
+	}
+
+.bodyTextCentralBottom {
+    width: 97%!important;
+}
+	
+    .fullHeightSlide ul.uk-dotnav li {
+        min-height: 20px!important;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tm-top-a .uk-overlay-panel >div {
+        height: 88%!important;
+    }
+	
+	.uk-dotnav {
+    margin-left: 42.75%!important; /* 43.4 43.2% 43.4% */
+}
+
+html .partnershipSlide h1.smartSECTIONHEAD{
+	font-size:14px!important;
+}
+
+html .partnershipSlide h2.smartSUBJECT{
+	font-size:26px!important;
+}
+
+html .partnershipSlide h3.smartBODYTEXT {
+    font-size: 18px !important;
+}
+
+
+    .h2.largeHeading {
+    font-size: 70px!important;
+    line-height: 0.8em !important;
+}
+
+    h2.midHeading {
+    font-size: 45px !important;
+    line-height: 0.6em !important;
+    }
+	
+    h3.subject {
+        margin-top: 2.3%;
+        font-size: 1.7em;
+    }
+	
+	.redBand h3.subject{
+	margin-top:3.5%; /* important */
+vertical-align:middle!important;	
+	}
+	
+	#tm-footer .bodyTextBLACK{
+		font-size:15px!important;
+		line-height:15px!important;
+	}
+
+    .bodyTextCentralBottom, .bodyText, .bodyBold, .bodyBoldFooter, .bodyTextFooter, .bodyTextBLACK{
+        font-size: 16px!important; /* 18px */
+        margin-bottom: 10px; /* !important */
+    }
+
+.tm-footer p {
+    margin-top: 0px!important;
+    margin-bottom: 0px!important;
+line-height:25px!important;
+}
+	
+.bodyTextCentralBottom {
+    margin-top: 0px!important;
+    margin-bottom: 50px!important;
+    bottom: 60px!important;
+}
+	
+    .fullHeightSlide li>* {
+        /* position: absolute!important; adversely affecting the image and navigation dots in top slideshow */
+    }
+	
+	.tm-top-b, .redBand {
+    min-height: 200px !important;
+    height: 200px !important;
+vertical-align:middle!important;
+}
+	
+	    .Xinlayer {
+        width: 160px; /* 180px*/
+        margin-top: 75px!important; /* 40px 80px */
+    }
+}
+
+
+@media (max-width: 1280px) { /* was min */
+
+	h1.sectionHeading{
+		margin-left:1.4%; /* 0.4% 0% */
+	}
+
+	.tm-top-a .fullHeightSlide{
+		min-height:100vh!important;
+		max-height:100vh!important;
+		
+	}
+	
+	
+    .redBand h3.subject {
+		margin-top: 4.5%; /* important */
+		vertical-align:middle!important;
+    }
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.8em!important;
+		line-height:1.2em!important; /* 1em*/
+	}
+
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter {
+        font-family: 'montserratultra_light'!important;
+        color: #ffffff;
+        font-size: 1.2em;
+        /* 1.3em!important*/
+        line-height: 1.3em!important;
+    }
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter {
+        font-family: 'montserratultra_light', arial, sans-serif!important;
+        color: #000000;
+        font-size: 1em;
+        /* 1em 1.3em!important */
+        line-height: 1.3em!important;
+    }
+    .bodyTextBLACK {
+        font-size: 1em;
+        /* !important */
+    }
+	
+	.stories{
+		width: 49%; 
+	}
+    .Xinlayer {
+        width: 150px;
+        margin-top: 85px!important; /* 150px 140px!important, 110px NOT IMPORTANT */
+    }
+}
+
+
+@media (max-width: 1220px) {
+    /* SLIDE 1 - PUTTING VH BACK IN MEANS ELEMENTS OVERRUN - ADDED TIE IN TO YOOTHEME uk-height-viewport*/
+
+	h1.sectionHeading{
+		margin-left:0%;
+	}    
+
+/* OVERRIDE SMARTSLIDER CSS */
+
+/* margin left 8% to correct misaligned centre */
+
+div.SS div#n2-ss-2 .n2-ss-layer h1{
+font-family: 'montserratlight', arial, sans-serif!important;
+letter-spacing:2px!important;
+font-size: 16px!important;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h2 {
+    font-size: 26px!important;
+    margin-top: 20px;
+    width: 70%!important;
+    line-height: 1.5em;
+font-family: 'montserratregular', arial, sans-serif!important;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h3 {
+    font-size: 16px!important;
+    line-height: 32px!important;
+    font-family: 'montserratultra_light', arial, sans-serif;
+}
+
+div.SS div#n2-ss-2 .n2-ss-layer h4 {
+    font-size: 16px!important;
+margin-left:10px!important;
+    line-height: 32px!important;
+    font-family: 'montserratlight', arial, sans-serif;
+}
+
+/* S/SLIDE OVERRIDES ENDS */
+
+
+	.uk-navbar-nav > li > a {
+    padding-left: 10px !important;
+	padding-right: 10px !important;
+	}
+	
+	.fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 850px!important;
+        /* !important */
+    }
+	
+	.tm-top-a .fullHeightSlide{
+	min-height:100vh!important;
+	max-height:100vh!important;
+		
+	}
+    .tm-top-a .uk-overlay-panel >div {
+        height: 85%!important;
+    }
+	
+	.tm-top-b, .redBand { /* leave comma */
+    min-height: 170px !important;
+    height: 170px !important;
+vertical-align:middle!important;
+	}
+	h1.sectionHeadBLACK{
+    margin-top: 0%!important;
+}
+	.redBand h3.subject{
+    font-size: 25px !important;
+margin-top: 3.5%; /* IMPORTANT */
+vertical-align:middle!important;
+	}
+	
+	h3.subject{
+    font-size: 25px !important;
+	}
+	
+	#tm-footer .bodyTextBLACK{
+		font-size:14px!important;
+		line-height:14px!important;
+	}
+
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter {
+        font-family: 'montserratultra_light', arial, sans-serif!important;
+        color: #ffffff;
+        font-size: 16px!important;
+        /* 14.1211px!important */
+        line-height: 1.5!important;
+    }
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter,
+	.bodyTextBLACK{
+        font-family: 'montserratlight', arial, sans-serif!important; /* montserratultra_light */
+        color: #000000;
+        font-size: 16px!important;
+        line-height: 1.5!important;
+    }
+	
+	.uk-text-large {
+    font-size: 18px;
+}
+	
+    .uk-dotnav {
+        bottom: 50px!important;
+        position: absolute!important;
+        margin-left: 43%!important;
+    }
+	
+	.stories{
+		width: 51!important%; 
+	}	
+	
+    .Xinlayer {
+        width: 150px;
+        margin-top: 85px!important; /* 180px 140px!important, 110px NOT IMPORTANT */
+    }
+	
+		#tm-footer .bodyTextBLACK{
+		font-size:0.9em!important;
+		line-height:1.3em!important; /* 1em*/
+	}
+}
+
+
+
+@media (max-width: 1024px){
+	
+		h1.sectionHeading{
+		margin-left:0%;
+	}
+	
+.uk-navbar-nav > li > a {
+font-size:12px!important;
+}	
+
+
+	#tm-main  .uk-overlay-top{
+	width:75%!important;
+	margin-left:12%!important;
+	}
+		
+	.tm-top-a .uk-overlay-panel {
+    top: 28%!important; /* 30% 32% */
+	/* padding-left:0px!important; */
+    }
+	
+	/* ARROWS IN TOP SLIDE */
+
+	.uk-slidenav-previous,  
+	.uk-slidenav-next {  
+	display:block!important;
+	top: 40%!important;
+	}
+	
+	.bodyTextCentralBottom {
+    width: 94.5%!important;
+}
+
+h1.sectionHeading {
+    margin-left: 0.8%!important;
+}
+
+h1.sectionHead, html .SS h1 {
+    margin-left: 0.8%!important;
+}
+	
+	.uk-dotnav {
+		margin-left: 42.3%!important;
+	}
+	
+
+}
+/* No Touch Devices */
+
+@media (max-device-width: 1024px) {
+	
+		/* h1.sectionHeading{ */
+		/* margin-left:0%; */
+	/* } */
+    .Xinlayer {
+        margin-top: 100px!important; /* 160px 235PX */
+    }
+
+#tm-navbar .uk-navbar-nav > li > a {
+font-size:12px!important;
+}
+
+}
+
+
+/* IPAD */
+/* Only Phones and Tablets (Portrait) */
+
+@media (max-width: 959px) {
+     .desktopONLY, #homepagemenuID {
+        display: none;
+    }
+    .mobileONLY, .mobileMENUONLY{
+        display: block;
+    }
+    .uk-navbar-toggle,
+    .uk-sticky-placeholder {
+        height: 40px;
+        background: #000000;
+        color: #ffffff;
+        float: right;
+        padding: 0px;
+    }
+
+    #tm-top-a {
+        top: 90px;
+    }
+
+.tm-top-a .uk-overlay-panel {
+    top: 22%!important;
+}
+    .uk-navbar-toggle {
+        height: 90px;
+    }
+	
+	.fullHeightSlide .uk-slidenav-position .uk-slidenav{  
+		display:block!important;
+		top: 42%!important;
+	}
+
+.uk-dotnav {
+    bottom: 110px;
+    position: absolute!important;
+    margin-left: 42.5%!important;
+    margin-right:  42.5%!!important;
+    width: 18%!important;
+}
+
+	
+    h1.sectionHead,
+    h1.sectionHeadBLACK,
+    h1.sectionHeading,
+	html .SS h1  {
+	font-size:13px!important;
+    }
+	
+	h1.sectionHead,
+	html .SS h1 {
+		margin-top:0px!important;
+	}
+
+h3.subject,
+h3.subjectBLACK {
+    font-size:20px!important;
+	line-height: 1.1em !important;
+}
+
+	.tm-top-a .uk-overlay-panel {
+	padding-left:0px!important;
+    }
+
+
+	
+	.bodyTextBottom {
+        width: 60%!important;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+	
+	h1.sectionHead + .bodyText{
+		padding-top:0px!important;
+	}
+	
+	h1.sectionHeadBLACK{
+		margin-top:0px!important;
+	}
+
+
+
+
+    .bodyTextCentralBottom {
+        margin-bottom: 0px!important;
+        width: 50%;
+        margin-left: 28%!important; /* auto 20% */
+        margin-right: 28%!important; /* auto 20% */
+        bottom: 140px!important;
+    }
+	
+	.redBand {
+		height:200px!important;
+		min-height:200px!important;
+		max-height:200px!important;
+	}
+	.redBand h3.subject {
+    font-size:20px!important;
+    margin-top: 28px;/* 28px!important*/
+    width:90%!important;
+    vertical-align:middle!important;
+}
+
+
+
+.uk-overlay-top {
+    width: 95%; /*!important*/
+	margin-left:2%; /* !important * /
+	margin-right:2%; /* !important */
+	padding-left:0px!important;
+	padding-right:0px!important;
+}
+
+	.stories{
+		width: 46%!important;
+		margin-left:auto!important;	
+		margin-right:auto!important;			
+	}
+
+	.Xinlayer{
+		margin-top:140px!important;
+	}
+	
+	
+/* MOBILE VERSION OF STORY SLIDES SHOWING INCREASE BODY TEXT SIZE */
+.mobileONLY .bodyText, .bodyTextBLACK,.bodyTextCentralBottom{
+    font-size:22px; /* 22px!important 15px */
+	line-height:28px!important; /* 18px */
+}
+
+.mobileONLY .bodyText p {
+    margin-bottom: 0.7em!important;
+    line-height: 26px!important;
+}
+
+.btn {
+    padding: 15px 20px!important;
+	width:50%!important; /* 100% */
+	margin-left:2%!important;
+	margin-right:2%!important;
+}
+
+.toTopScroller{
+	top:10px!important;
+	margin-bottom:0px!important;
+	padding-bottom:0px!important;
+	
+}
+
+
+}
+
+
+/* Only Tablets (Portrait) - should show desktop versions of slides */
+/* this overrides iPad breakpoint above */
+
+@media (min-width: 768px) and (max-width: 959px) {
+
+.mobileONLY, .mobileMENUONLY{
+display:block!important;
+}
+
+html .uk-overlay-panel {
+    margin-top:0px!important; /* override the global 30px */
+}
+
+
+.tm-navbar img.uk-responsive-height {
+    float: left;
+}
+
+.reducedHeightSlide, .reducedHeightSlide li {
+    min-height: 500px!important;
+max-height: 500px!important;
+height:500px!important;
+}
+
+ul.uk-slideshow, ul.uk-slideshow-fullscreen{
+height:auto!important!important;
+min-height:auto!important;
+max-height:auto!important;
+}
+
+.reducedGap{
+width:15%!important;
+margin:0px!important;
+padding:0px!important;
+display:inline-block!important;
+}
+
+#firstThird, #lastThird{
+width:16%!important;
+display:inline-block!important;
+}
+
+#middleThird{
+width:64%!important;
+display:inline-block!important;
+}
+
+.uk-navbar-content{
+padding:10px!important;
+}
+
+/* HIDE DESKTOP MENU - SHOW MENU WITH DIFFERENT ID TO CONTROL OFFSET FOR MOBILE */
+	#homepagemenuID{
+		display:none!important;
+	}
+	
+
+    .uk-overlay-top {
+        width: auto!important;
+        margin-left: auto!important;
+margin-right: auto!important;
+    }
+
+    .uk-sticky-placeholder {
+        height: 90px!important;
+    }
+
+/* REMOVED : .uk-height-viewport */
+
+   /* PUSH SLIDE HEIGHT 1024PX */
+   .fullHeightSlide, .fullHeightSlide li, #tm-top-a  {
+       min-height: 1024px!important;
+   }
+
+    .uk-cover-background {
+        /* width: 74%!important;  75% BREAKS IPAD VIEW */
+    }
+
+    #tm-main .uk-cover-background {
+        width: 100%!important;
+    }
+	
+		
+
+
+/* adjust all text over*/
+.slideOneLayout{
+padding-left:10%!important; /* 10% 0% */
+}
+
+    h1.sectionHeading {
+        width: 100%; /* 80% */
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+	
+    h1.sectionHead,
+html .SS h1 {
+        width: 100%!important; /* 71%*/
+    }
+
+    h1.sectionHeadBLACK {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    h2.largeHeading {
+        width: 80%!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+    h2.midHeading {
+        width: 80%!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+
+    h3.subject,
+    h3.subjectBLACK {
+        font-size: 1.4em;
+    }
+
+    h2.largeHeading {
+        font-size: 3.3em;
+        line-height: 1.2em!important; /* 1em*/
+        width: 50%;
+        margin-left: auto!important; /* 14.5% 38% 34% */
+        margin-right: auto!important; /* 15% 34% */
+    }
+
+    h2.midHeading {
+        font-size: 2.5em;
+        line-height: 1.2em!important; /* 1em*/
+        width: 48%;
+        margin-left: 12%; 
+        margin-right: 12%;
+    }
+
+    h1.sectionHead,
+	html .SS h1 {
+        width: 80%; 
+        margin-left: auto!important; 
+        margin-right: auto!important;
+    }
+
+    h1.sectionHeadBLACK{
+        margin-top: 10%!important;
+    }
+
+    h3.subject {
+        width: 80%!important;
+        margin-left: auto;
+        margin-right: auto;
+        line-height: 1.2em;
+    }
+
+    #tm-bottom-b h3.subject {
+        width: 80%!important;
+	   margin-left:8%!important;
+	   margin-right:8%!important;
+	   margin-top:auto!important;
+    }
+
+   .redBand h3.subject{
+      margin-top:7%!important;
+      font-size:24px!important;
+	  
+   }
+
+
+    .mobileONLY .bodyText, .bodyText, .bodyTextBLACK, .bodyTextCentralBottom{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 18px!important;
+    }
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.8em!important;
+		line-height:0.8em!important;
+	}
+
+    .bodyTextBottom {
+        width: 60%!important;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+   .bodyTextCentralBottom {
+       margin-bottom: 0%!important; /* 8% */
+       width: 84%!important; /* 82% 80% 85% 50% 100% 50% */
+       margin-left: auto!important; /* 20% */
+       margin-right: auto!important; /* 20% */
+       bottom: 250px!important; /* 220px 240px */
+   }
+   
+   .tm-top-a .uk-overlay-panel >div {
+    height: 70%!important;
+}
+
+
+   
+   .uk-dotnav {
+    bottom: 200px!important; /* 150px */
+   }
+
+    #tm-main .bodyText {
+        width: 80%;
+        margin-left: 14%;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+    .bodyTextBLACK {
+	font-size:18px!important;
+        width: 68%;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #tm-footer .bodyTextBLACK {
+        width: 80%;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+
+
+
+
+
+.stories{
+width:65%!important;
+}
+   
+   .bodyText,
+   .bodyBold{ /* LAST POINT */
+	   margin-left:8%!important;
+	   margin-right:8%!important;
+   }
+   
+   	.stories{
+		margin-left:auto!important;	
+		margin-right:auto!important;			
+	}
+
+
+    .Xinlayer {
+        margin-top: 100px!important;
+display:none!important;		/* 160px 235PX */
+    }
+	
+    .splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+    display: inline-block!important;
+    width: 32%!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.9em!important;
+		line-height:1.2em!important;
+	}
+
+.toTopScroller{
+top:8px!important;
+margin-right:10px!important;
+}
+
+}
+
+
+/* Only Tablets (Portrait) and Phones (Landscape) */
+
+@media (min-width: 480px) and (max-width: 959px) {
+	
+
+/* RESET GLOBAL SETTING TO MAKE 100% AS NOT WANTED ON ALL SLIDES ON IPAD */
+.uk-height-viewport{
+height:auto!important;
+min-height:auto!important;
+max-height:auto!important;
+}
+
+
+
+
+/* MOBILE VIEW SHOWING ON TABLETS BECAUSE OF CONTENT POSITIONING DIFFERENCES */ 
+
+/* HIDE DESKTOP MENU - SHOW MENU WITH DIFFERENT ID TO CONTROL OFFSET FOR MOBILE */
+	
+    .slideOneLayout {
+        padding-top: 12%!important;
+    }
+	
+	
+	#homepagemenuID{
+		display:none!important;
+	}
+
+ .desktopONLY {
+        display: none;
+    }
+    .mobileONLY, .mobileMENUONLY {
+        display: block;
+    } 
+
+.phoneMENUONLY{
+display:none!important;
+}
+    .uk-navbar-center {
+        float: left !important;
+        left: 0px !important;
+        text-align: left !important;
+        margin-left: 0px !important;
+        padding: 0px !important;
+    }
+    .tm-navbar {
+        padding: 0 20px 0px 10px;
+        min-height: 90px!important;
+    }
+    .tm-navbar .uk-navbar ul a,
+    .tm-navbar .uk-navbar-nav > li.uk-active > a,
+    .uk-navbar-nav > li > a {
+        font-size: 0.7em !important;
+    }
+    .uk-sticky-placeholder {
+        height: 90px!important;
+    }
+	
+   .Xinlayer {
+        margin-top: 100px!important; /* 160px 235PX */
+    }
+
+   .redBand h3.subject{
+      margin-top:7%!important;
+vertical-align:middle!important;
+   }
+   
+   	.splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+    display: inline-block!important;
+    width: 32%!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.7em!important;
+		line-height:1em!important;
+	}
+}
+
+
+/* Only Phones */
+
+@media (max-width: 767px) {	
+
+
+
+
+	.desktopONLY, #homepagemeuID {
+        display: none;
+    }
+    .mobileONLY {
+        display: block;
+    }
+.mobileMENUONLY{
+display:none!important;
+}
+
+.phoneMENUONLY {
+    display: block;
+}
+
+#tm-main .uk-overlay-top {
+        width: 90%!important;
+    margin-left: 4%!important;
+    margin-right: 4%!important;
+}
+
+/* iphone 6s - tst*/
+
+#tm-main  .uk-overlay-panel{
+	padding-left:0px!important;
+}
+
+    .bodyTextCentralBottom {
+        width: 80%; /* 100% */
+        margin-left: auto%!important; /* 20% */
+		margin-right: auto%!important;
+        /*margin-right: 10%!important; */
+    }
+
+/* MOBILE VERSION OF STORY SLIDES SHOWING INCREASE BODY TEXT SIZE */
+.mobileONLY .bodyText, .bodyTextBLACK,.bodyTextCentralBottom{
+        font-size:15px!important; /* !important 22px!important 15px */
+		line-height:18px!important; /* 18px */
+}
+
+.mobileONLY .bodyText p {
+    margin-bottom: 0.7em!important;
+    line-height: 22px!important;
+}
+
+
+    .slide1 .uk-overlay-panel {
+        top: 20%!important;
+    }
+
+
+	
+	#tm-footer .bodyTextBLACK{
+		font-size:14px!important;
+		line-height:14px!important;
+	}
+
+    .bodyTextCentralBottom {
+        font-size: 17px;
+        font-family: 'montserratlight'; /* 'montserratultra_light’*/
+        margin-left: 10%!important; /* 20% */
+        margin-right: 10%!important; /* 20% */
+        position: absolute!important;
+        margin-bottom: 8%!important;
+        width: 50%;
+        text-align: center;
+        position: absolute!important;
+        bottom: 100px!important;
+    }
+    .IAVIlogo {
+	display:inline-block!important;
+        width: 90%!important;
+        /* 490px 50% */
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .uk-navbar-toggle,
+    .uk-sticky-placeholder {
+        height: 40px;
+        background: #000000;
+        color: #ffffff;
+        float: right;
+        padding: 0px;
+    }
+    .uk-sticky-placeholder {
+        height: 70px!important;
+        z-index: 9999!important;
+    }
+
+.mobileONLY h2.largeHeading {
+font-size:46px!important;
+}
+
+    .mobileONLY h2.largeHeading {
+        font-size: 2.8em!important;
+        line-height: 1.1em;
+    }
+
+    h2.midHeading {
+        font-size: 2.5em!important;
+        line-height: 1em;
+    }
+
+    .bodyTextBottom {
+        margin-top: 40%;
+        width: 80%;
+    }
+    /* INTERFERING WITH PIPS IN TOP SLIDE 
+.uk-overlay-panel > div{
+top:20%;
+}
+*/
+    .slide1 .uk-margin-large-top {
+        position: absolute!important;
+        bottom: 10px!important;
+        margin-bottom: 0px!important;
+    }
+
+
+    .splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+    display: inline-block!important;
+    width: 32%!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.7em!important;
+		line-height:1em!important;
+	}
+	
+
+    .tm-top-a .uk-overlay-panel >div {
+        height: 49%!important;
+    }
+    .tm-totop-scroller {
+        display: none!important;
+    }
+}
+
+
+/* Only Phones (Landscape) */
+
+@media (min-width: 480px) and (max-width: 767px){
+
+/* @media (min-width: 480px) and (max-width: 767px) {*/
+	
+		/* h1.sectionHeading{ */
+		/* margin-left:0%; */
+	/* } */
+
+    .desktopONLY,#homepagemenuID{
+        display: none;
+    }
+    .mobileONLY {
+        display: block;
+    }
+
+.mobileMENUONLY{
+display:none!important;
+}
+
+.phoneMENUONLY {
+    display: block;
+}
+    .slideOneLayout {
+        padding-top: 12%!important;
+    }
+	
+	
+    .uk-navbar-toggle,
+    .uk-sticky-placeholder {
+        height: 40px;
+        background: #000000;
+        color: #ffffff;
+        float: right;
+        padding: 0px;
+    }
+    #tm-top-a {
+        top: 30px;
+    }
+    .uk-sticky-placeholder {
+        height: 70px!important;
+    }
+	
+	.splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+    display: inline-block!important;
+    width: 32%!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.7em!important;
+		line-height:1em!important;
+	}
+}
+
+
+/* Only Phones (Portrait) */
+
+@media (max-width: 479px) {
+
+
+.mobileMENUONLY{
+display:none!important;
+}
+
+.mobileONLY, .phoneMENUONLY {
+    display: block;
+}	
+	h1.sectionHeading{
+		margin-left:0%;
+	}
+
+
+.tm-navbar .uk-navbar-content{
+padding-left:0px!important;
+margin-left:0px!important;
+}
+
+
+h2.largeHeading {
+font-size:46px!important;
+}
+
+
+.mobileONLY .stories{
+width:70%!important;
+}
+
+.mobileONLY .bodyText p {
+    line-height: 18px!important;
+}
+
+/*
+
+h1.sectionHeading {
+font-size:12px!important;
+}
+
+h1.sectionHead,
+html .SS h1 {
+font-size:12px!important;
+
+}
+
+
+h1.sectionHeadingBLACK {
+font-size:12px!important;
+}
+
+h1.sectionHeadBLACK {
+font-size:12px!important;
+}
+
+
+
+
+h2.midHeading {
+font-size:18px!important;
+}
+
+h3.subject {
+font-size:18px!important;
+}
+
+h3.subjectBLACK {
+font-size:18px!important;
+}
+*/
+
+
+
+    .desktopONLY, #homepagemenuID{
+        display: none;
+    }
+    .mobileONLY {
+        display: block;
+    }
+    /* THE NAVIGATION PIPS IN SLIDE 1 */
+    .tm-top-a .uk-overlay-panel >div {
+        height: 94%!important;
+    }
+    /* ADD COMMAND TO RESIZE tm-top-a POSITION */
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 635px!important; /* 790px */
+        /* 736px */
+        height: 635px!important; /* 790px */
+        /* 736px */
+    }
+	
+	/* the dot nav dots are li */
+	.fullHeightSlide li li{
+		height:auto!important;
+		margin-left:8px!important;
+		margin-right:8px!important;
+		margin-bottom:10px!important;
+	}
+	
+	.uk-dotnav {
+    margin-left: 23%!important;
+	width:50%!important;
+}
+	
+	
+	
+
+/* adjust the overall width of content on mobiles */
+
+.uk-overlay-panel {
+    margin: 0px;
+}
+
+/* iphone 6s - tst*/
+
+#tm-main  .uk-overlay-panel{
+	padding-left:0px!important;
+}
+
+
+/* removed: .uk-width-9-10 */
+.uk-overlay-top,
+.modulesSlideOne .uk-overlay-panel {
+    width: 90%!important; /*!important*/
+	margin-left:5%!important; /* !important * /
+	margin-right:5%!important; /* !important */
+	padding-left:0px!important;
+	padding-right:0px!important;
+}
+
+
+    .modulesSlideOne .uk-overlay-panel {
+        top: 25%!important;
+        /* 20% */
+        height: 40%!important;
+    }
+	/* ADDED TO BREAKPOINT */
+	.reducedHeightSlide, .reducedHeightSlide li {
+    max-height: 510px!important;
+    min-height: 510px!important;
+}
+	
+    /* NAVIGATION PIPS SLIDE 1*/
+    .slide1 .uk-margin-large-top {
+        position: absolute!important;
+        bottom: 100px!important; /* 10% */
+    }
+    .uk-grid {
+        margin: auto!important;
+    }
+    .uk-navbar-center {
+        text-align: left;
+            width: auto!important;
+    margin-left: 2%!important;
+    margin-right: 2%!important;
+    }
+    .uk-navbar-toggle,
+    .uk-sticky-placeholder {
+        height: 40px;
+        background: #000000;
+        color: #ffffff;
+        float: right;
+        padding: 0px;
+    }
+    .uk-navbar-toggle {
+        height: 70px!important;
+    }
+    .uk-sticky-placeholder {
+        height: 70px!important;
+        z-index: 9999!important;
+    }
+    #tm-top-a {
+        top: 60px;
+        /* 30px */
+    }
+    .uk-navbar-content,
+    .uk-navbar-brand,
+    .uk-navbar-toggle {
+        padding: 0px!important;
+    }
+    .tm-logo-small img {
+        width: 133px;
+        height: 50px!important;
+    }
+    img.uk-responsive-height {
+        margin-left: 0px!important;
+    }
+    .tm-top-a .uk-overlay-panel >div {
+        /* height: auto!important; AFFECTING PIPS */
+        /* 60% */
+    }
+    .mobileONLY .bodyTextCentralBottom {
+        width: 80%!important; /* 70% 100% */
+        margin-left: 6%!important; /* 0px */
+	margin-right: auto!important; /* 0px*/
+	bottom:120px!important; /* 70px */
+        /*margin-right: 10%!important; */
+    }
+	h2.largeHeading{font-size:2.9em!important;}
+	
+    h3.subject {
+        padding-top: 4%!important;
+        line-height: 1.1em!important;
+    }
+	
+	.stories {
+    min-height: 200px!important;
+    max-height: 200px!important;
+    width: 80%;
+}
+
+/* aiming for story slides but will impact others */
+.mobileONLY .uk-overlay-panel{
+	padding-top:0px!important;
+}
+
+   	.splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+    display: inline-block!important;
+    width: 32%!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+.reducedGap{
+width:5%!important;
+margin:0px!important;
+padding:0px!important;
+display:inline-block!important;
+}
+
+#firstThird, #lastThird{
+width:16%!important;
+display:inline-block!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.9em!important;
+		line-height:1.2em!important;
+	}
+
+    .bodyText,
+    .bodyBold,
+    .bodyBoldFooter,
+    .bodyTextFooter,
+	.bodyTextBLACK {
+	
+		font-size: 17px!important;
+		line-height: 18px!important;
+	
+        /*font-size: 0.7em!important; */ /* NOT IMPACTING STYLING IPHONE6 */
+        /*line-height: 1.5em!important;*/
+    }
+
+	.bodyTextBLACK{
+		line-height: 22px!important;
+	}
+
+    /* STORY SLIDES */
+    .uk-width-9-10 {
+        margin-left: 10%!important;
+margin-right: 10%!important;
+width:80%!important;
+	height:90%!important;
+    }
+    /* PARTNERSHIP SLIDE */
+    .uk-overlay-top { /* !important*/
+        /*width: 80%; */
+        /* 85% */
+        /* margin-left: 0%!important; */
+    }
+
+
+
+.parallaxSlide .sectionHeadBLACK{
+margin-top:30px!important;
+}
+
+    /* ABOUT US SLIDE - NOT FILLING SCREEN */
+    #tm-top-d .uk-flex {
+        height: 550px!important;
+    }
+
+	.animatedButton{
+		padding-top:80px!important;
+	}
+
+	.animatedButton p {
+		padding: 0px!important;
+	}
+
+	.btn{
+		margin-left:0px!important;
+	width:80%!important;
+	}
+
+    .tm-footer {
+        padding-top: 8%!important;
+    }
+    /* SHOW STICKY MENU ON MOBILE VIEW 
+    .tm-navbar-transparent .uk-sticky-placeholder {
+        position: fixed;
+    }
+    .tm-navbar-transparent.uk-offcanvas-page .uk-sticky-placeholder {
+        position: absolute;
+    }*/
+    /* STOP LOGO CENTERING ON MOBILES - FIXED*/
+    img.uk-responsive-height,
+    .tm-logo-small,
+    .tm-navbar .navbar-center,
+    .uk-align-center {
+        float: left!important;
+        text-align: left!important;
+        width: auto!important;
+        margin-left: 0px!important;
+    }
+    /* SLIDE SHOW NOT SITTING AT TOP - FIXED */
+    #tm-top-a {
+        top: 40px!important;
+    }
+    /* SLIDESHOW JUMPING WHEN ADDRESS BAR HIDES ON MOBILES */
+    /* SLIDESHOW LOSING BOTTOM OF SLIDE - FIXED*/
+    .bodyTextBottom {
+        margin-top: 12%!important;
+        /* 30% */
+        font-size: 0.9em;
+        bottom: 0px!important;
+    }
+    /* COPY NOT STRETCHING WIDE ENOUGH - FIXED */
+    h3.subject {
+        width: 85%!important;
+        /* 85% */
+        margin-left: auto!important;
+        /* 10% */
+        margin-right: auto!important;
+        /* 10% */
+        text-align: center!important;
+        margin-top: 5%;
+    }
+    /* ABOUT US COPY STRETCHING TOO WIDE - FIXED*/
+    /* PARTNERSHIP TITLE TOO THIN - FIXED*/
+    /* TO TOP SCROLLER NOT REQUIRED FOR MOBILE */
+    .tm-totop-scroller,
+    .tm-totop-scroller>img {
+        display: none!important;
+    }
+	
+	#firstThird, #lastThird{
+		width:5%!important;
+	}
+	
+	#middleThird{
+		width:80%!important;
+	}
+    /* .footerLOGO { */
+        /* padding-bottom: 5%!important; */
+    /* } */
+	
+	img#footerLOGO{
+		min-height:100px!important;
+		height:100px!important;
+		max-height:100px!important;
+	}
+    /* TESTS CSS */
+    /* FULLSCREEN DEFORMING - ADDING MINIMUM HEIGHT */
+    /* AFFECTING RENDERING ON MOBILE
+body, html {
+  height: 100%;
+}
+
+*/
+    .slide1,
+    .slide1 .uk-slideshow-fullscreen {
+        min-height: 600px!important;
+    }
+
+.mobileFirst{
+width:10%!important;
+}
+
+.mobileThird{
+width:10%!important;
+}
+
+.partnershipSLIDE .splitThirds{
+width:40%!important;
+}
+
+}
+
+
+/* ADDED - SMALLEST IPHONES  */
+
+@media (max-width: 380px) {
+	
+		h1.sectionHeading{
+		margin-left:0%;
+	}
+
+
+    .desktopONLY, #homepagemenuID {
+        display: none;
+    }
+    .mobileONLY {
+        display: block;
+    }
+
+.mobileMENUONLY{
+display:none!important;
+}
+
+.phoneMENUONLY {
+    display: block;
+}
+    h1.sectionHeading {
+        font-size: 0.9em;
+    }
+
+    h2.largeHeading {
+        font-size: 2.8em!important;
+		line-height: 1em!important;
+    }
+
+    h2.midHeading {
+        font-size: 2.2em!important;
+		line-height: 1em!important;
+    }
+
+	h3.subjectBLACK{
+		width: 90%!important;
+	}
+
+	#tm-footer .bodyTextBLACK{
+		line-height:1em!important;
+	}
+
+    .bodyText p {
+        line-height: 1.2em!important;
+    }
+    .bodyTextCentralBottom {
+        margin-bottom: 0%!important;
+        bottom: 0px!important;
+    }
+    /* THE NAVIGATION PIPS IN SLIDE 1 */
+    .tm-top-a .uk-overlay-panel >div {
+        height: 94%!important;
+    }
+    /* ADD COMMAND TO RESIZE tm-top-a POSITION */
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 595px!important;
+        /* 790PX 736px */
+        height: 595px!important;
+        /* 790PX  736px */
+    }
+    .modulesSlideOne .uk-overlay-panel {
+        top: 30%!important;
+        /* 20% */
+        height: 40%!important;
+		padding-left:0px!important;
+    }
+    /* NAVIGATION PIPS SLIDE 1*/
+    .slide1 .uk-margin-large-top {
+        position: absolute!important;
+        bottom: 10%!important;
+    }
+	
+	.splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+		display: inline-block!important;
+		width: 32%!important;
+		margin-left: 0px!important;
+		margin-right: 0px!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.7em!important;
+		line-height:1em!important;
+	}
+}
+
+
+/* ADDED - IPHONE 5 - 320PX */
+
+@media (max-width: 320px) {
+	
+.mobileMENUONLY{
+display:none!important;
+}
+
+.phoneMENUONLY {
+    display: block;
+}
+
+		h1.sectionHeading{
+		margin-left:0%;
+	}
+
+
+    .desktopONLY, #homepagemenuID {
+        display: none;
+    }
+    .mobileONLY {
+        display: block;
+    }
+    h1.sectionHeading {
+        font-size: 0.6em!important;
+    }
+
+    h2.largeHeading {
+        font-size: 2em!important;
+    }
+
+    h2.midHeading {
+        font-size: 1.5em!important;
+    }
+
+
+    h3.subject {
+        padding-top: 8%!important;
+    }
+    h3.subjectBLACK {
+        line-height: 1.1em!important;
+    }
+    h3.subject {
+        font-size: 1.1em;
+    }
+
+   	.splitThirds, #tm-footer #footer1, #tm-footer #footer2, #tm-footer #footer3 {
+    display: inline-block!important;
+    width: 32%!important;
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+	#tm-footer .bodyTextBLACK{
+		font-size:0.7em!important;
+		line-height:1em!important;
+	}
+
+    .bodyText p,
+    .bodyTextBLACK,
+    .bodyTextCentralBottom {
+        font-size: 0.7em!important;
+        line-height: 1.2em!important;
+    }
+    .bodyTextBLACK {
+        margin-left: 6%!important;
+    }
+    .bodyTextCentralBottom {
+        margin-left: 4%!important;
+    }
+    /* ADD COMMAND TO RESIZE tm-top-a POSITION */
+    .fullHeightSlide,
+    .fullHeightSlide li,
+    .uk-height-viewport {
+        min-height: 330px!important;
+        height: 330px!important;
+    }
+    .modulesSlideOne .uk-overlay-panel {
+        top: 12%!important;
+        height: 62%!important;
+		padding-left:0px!important;
+    }
+    /* UPDATES CONTACT US SLIDE */
+    .uk-width-9-10 {
+        width: 85%!important;
+        margin-left: 6%!important;
+        margin-right: 6%!important;
+        margin-top: 9%!important;
+    }
+}
+
+/* TEST - HIDE MENU WHEN SCROLLING */
+
+.tm-navbar-fixed .tm-toolbar + .tm-navbar.tm-navbar-small {   
+top: 0;  
+}  
+
+.tm-navbar-fixed .tm-toolbar + .tm-navbar.tm-navbar-small + .tm-fullscreen-container .tm-fullscreen {  
+top: 80px;  
+}
+
+
