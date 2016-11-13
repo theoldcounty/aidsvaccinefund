@@ -1620,7 +1620,7 @@ img.uk-responsive-height {
     }
     h2.largeHeading {
         font-size: 63px!important;
-        line-height: 0.8em!important;
+        line-height: 1em!important;
     }
     h2.midHeading {
         font-size: 45px!important;
@@ -1957,7 +1957,7 @@ img.uk-responsive-height {
     }
     .Xinlayer {
         width: 90px;
-        margin-top: 0px!important;
+        margin-top: 11px!important;
     }
 	
 	/* SMART SLIDER - SLIDE */
@@ -2012,7 +2012,7 @@ img.uk-responsive-height {
         max-height: 100vh!important;
     }
     .tm-top-a .uk-overlay-panel >div {
-        height: 85%!important;
+        height: 88%!important;
     }
 
     .stories {
@@ -2168,8 +2168,10 @@ img.uk-responsive-height {
 	
 	/* TOP SLIDE */
 	html .fullHeightSlide ul.uk-dotnav {
-    margin-left: -22px/*!important;*/
-}
+        /*margin-left: -22px;*/
+        float: left;
+        width: 100%;
+    }
 
 	/* PARALLAX SLIDE */
 	.parallaxSlide h1.sectionHeadBLACK {
@@ -3187,8 +3189,8 @@ img.uk-responsive-height {
     
     .uk-overlay-top,
     .modulesSlideOne .uk-overlay-panel {
-        width: 90%!important;
-        margin-left: 5%!important;
+        /*width: 90%!important;*/
+        margin-left: 0%!important;
         padding-left: 0px!important;
         padding-right: 0px!important;
     }
@@ -3202,14 +3204,14 @@ img.uk-responsive-height {
     /* THE NAVIGATION PIPS IN SLIDE 1 */
     
     .tm-top-a .uk-overlay-panel >div {
-        height: 94%!important;
+        height: 84%!important;
     }
 
     .mobileONLY .bodyTextCentralBottom {
         width: 86%!important; /* 80% */
         margin-left: auto!important; /* 6% */
         margin-right: auto!important;
-        bottom: 90px!important; 
+        bottom: 100px!important; 
     }
 
 
@@ -3370,10 +3372,12 @@ img.uk-responsive-height {
     }
 	
 	#tm-main .uk-overlay-top {
-    width: 92%!important;
-    margin-left: 4%!important;
-    margin-right: 4%!important;
-}
+        /*
+        width: 92%!important;
+        margin-left: 4%!important;
+        margin-right: 4%!important;
+        */
+    }
     /* STORY SLIDES */
     
     .uk-width-9-10 {
